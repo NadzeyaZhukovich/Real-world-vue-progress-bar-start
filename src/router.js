@@ -19,7 +19,8 @@ const router = new Router({
     {
       path: '/event/create',
       name: 'event-create',
-      component: EventCreate
+      component: EventCreate,
+      props: true
     },
     {
       path: '/event/:id',
